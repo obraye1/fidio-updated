@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { SliderStyles, SliderTheme, GoogleFontsLink, PaystackScript } from '/modules/internal/localImports'
+import Script from 'next/script'
 
 class MyDocument extends Document {
 	render() {
@@ -10,7 +11,7 @@ class MyDocument extends Document {
 					{ SliderTheme }
 					{ GoogleFontsLink }
 					{ PaystackScript }
-          <script
+          <Script
             id='google-analytics-script'
             dangerouslySetInnerHTML={{
               __html: `
@@ -23,10 +24,10 @@ class MyDocument extends Document {
               `,
             }}
           />
-          <script
+          <Script
             async
             src='https://www.googletagmanager.com/gtag/js?id=G-B57K7JWE6J'
-          ></script>
+          ></Script>
           <link
             href='https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'
             rel='stylesheet'

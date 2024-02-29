@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { getServerSidePropsDefault } from '../../../modules/utility';
 import HomeLayout from '../../../customModules/features/HomeLayout';
-import { homePageData } from '@/customModules/features/seo-data';
+import { homePageData } from '/customModules/features/seo-data';
 
 const pageName = 'Blog';
 
