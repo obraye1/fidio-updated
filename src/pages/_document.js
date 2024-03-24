@@ -42,11 +42,6 @@ class MyDocument extends Document {
           ></link>
         </Head>
         <body>
-          <div
-            version='1.5.0'
-            business='Tycoon Systems Corp.'
-            style={{ display: 'none' }}
-          ></div>
           <Main />
           <NextScript />
         </body>
